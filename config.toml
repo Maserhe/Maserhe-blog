@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://www.jpg6.com/"
+baseURL = "https://maserhe-blog.pages.dev/"
 title = "Maserhe"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
