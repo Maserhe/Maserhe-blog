@@ -1,0 +1,13 @@
+url = "https://www.jpg6.com"
+
+[name]
+display = "Erhe Yang"
+
+[image]
+url = "images/author.webp"
+
+[zh]
+description = "后端开发工程师，区块链和Web3爱好者，东华大学(DHU) 软件工程硕士学位。喜欢学习和建造东西。 [GitHub 关注我](https://github.com/maserhe)"
+
+[en]
+description = "Backend development engineer, blockchain & Web3 enthusiast, with a Master's degree in Software Engineering from Donghua University (DHU). Enjoys learning and building things.. [Follow me on GitHub](https://github.com/maserhe)"
