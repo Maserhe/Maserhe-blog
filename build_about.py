@@ -112,7 +112,7 @@ def fetch_douban():
     ]
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://www.pseudoyu.com/zh/index.xml")["entries"]
+    entries = feedparser.parse("https://www.jpg6.com/zh/index.xml")["entries"]
     return [
         {
             "title": entry["title"],

@@ -34,7 +34,7 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 ### 博客域名
 
-使用 GitHub Pages 生成网站会自动分配一个 xxx.github.io 的默认域名，通过这个域名就可以直接对生成的博客网站进行访问，也可以通过域名解析配置自己的域名，如我的网站就是解析了 [pseudoyu.com](https://www.pseudoyu.com) 这个域名。
+使用 GitHub Pages 生成网站会自动分配一个 xxx.github.io 的默认域名，通过这个域名就可以直接对生成的博客网站进行访问，也可以通过域名解析配置自己的域名，如我的网站就是解析了 [jpg6.com](https://www.jpg6.com) 这个域名。
 
 我的域名是在 [NameSilo](https://www.namesilo.com) 购买的，并通过 [Cloudflare](https://www.cloudflare.com) 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。
 
@@ -53,7 +53,8 @@ Hugo 是用 Go 实现的博客工具，采用 Markdown 进行文章编辑，自�
 
 一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 [Disqus](https://disqus.com)，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 [Randy](https://lutaonan.com) 的 [Cusdis](https://cusdis.com)，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 [Heroku](https://www.heroku.com) 的免费 [PostgreSQL](https://www.postgresql.org) 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。
 
-![cusdis_overview](https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_overview.png)
+![cusdis_overview](https://cdn.jsdelivr.net/gh/
+/image-hosting@master/images/cusdis_overview.png)
 
 ### 图片管理
 
