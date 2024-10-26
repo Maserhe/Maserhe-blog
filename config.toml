@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://maserhe-blog.pages.dev/"
+baseURL = "https://jpg6.com/"
 title = "Maserhe"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = true
 
   # site info (optional)
   keywords = ["hugo","blockchain","programming"]
-  description = "Blockchain | Programming | Photography | Misty"
+  description = "Blockchain | Programming | Photography | Maserhe"
   logoTitle = "卷铺盖溜" # shown on top-left, default: title
   siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Maserhe"                   # default: title
@@ -145,27 +145,27 @@ defaultContentLanguageInSubdir = true
     identifier = "projects"
     url = "category/projects/"
 
-  [[languages.en.menu.social]]
-    name = "Twitter"
-    weight = 10
-    identifier = "twitter"
-    url = "https://twitter.com/pseudo_yu"
-  [[languages.en.menu.social]]
-    name = "Instagram"
-    weight = 20
-    identifier = "instagram"
-    url = "https://www.instagram.com/pseudo.yu/"
-  [[languages.en.menu.social]]
-    name = "BiliBili"
-    weight = 30
-    identifier = "bilibili"
-    url = "https://space.bilibili.com/5374948/"
+#  [[languages.en.menu.social]]
+#    name = "Twitter"
+#    weight = 10
+#    identifier = "twitter"
+#    url = "https://twitter.com/pseudo_yu"
+#  [[languages.en.menu.social]]
+#    name = "Instagram"
+#    weight = 20
+#    identifier = "instagram"
+#    url = "https://www.instagram.com/pseudo.yu/"
+#  [[languages.en.menu.social]]
+#    name = "BiliBili"
+#    weight = 30
+#    identifier = "bilibili"
+#    url = "https://space.bilibili.com/5374948/"
 
   [[languages.en.menu.links]]
-    name = "M1sty"
+    name = "Maserhe"
     weight = 10
-    identifier = "m1sty"
-    url = "https://www.m1sty.com"
+    identifier = "Maserhe"
+    url = "https://maserhe.github.io"
 
   [languages.zh]
   languageCode = "zh"
