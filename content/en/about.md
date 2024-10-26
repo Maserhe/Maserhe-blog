@@ -36,22 +36,22 @@ I hope that in my spare time I can output more new knowledge and ideas, and writ
 ### 🎧 Recent Digests
 
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/35207856/' target='_blank'>在看人世间</a> - 2023-05-20
-* <a href='http://movie.douban.com/subject/35874097/' target='_blank'>看过网络炼狱：揭发N号房</a> - 2022-07-28
-* <a href='http://movie.douban.com/subject/35436582/' target='_blank'>看过爱，死亡和机器人 第三季</a> - 2021-05-20
-* <a href='http://movie.douban.com/subject/35351365/' target='_blank'>在看夏日重现</a> - 2022-05-20
-* <a href='http://movie.douban.com/subject/34418203/' target='_blank'>看过爱，死亡和机器人 第二季</a> - 2020-04-10
+* <a href='https://book.douban.com/subject/37016658/' target='_blank'>想读小城与不确定性的墙</a> - 2024-10-26
+* <a href='http://movie.douban.com/subject/35604181/' target='_blank'>在看企鹅人</a> - 2024-10-26
+* <a href='http://movie.douban.com/subject/36875044/' target='_blank'>想看幼豹成长记</a> - 2024-10-06
+* <a href='http://movie.douban.com/subject/26415434/' target='_blank'>想看雷普利</a> - 2024-10-03
+* <a href='https://book.douban.com/subject/36852931/' target='_blank'>最近在读身后无遗物</a> - 2024-09-27
 <!-- douban ends -->
 
 ### 👨🏻‍💻 This Week I Code With
 <!-- code_time starts -->
 
 ```text
-Markdown   12 hrs 21 mins ███████████████░░░░░░  71.8%
-Java       2 hrs 1 min    ██▍░░░░░░░░░░░░░░░░░░  11.8%
-Solidity   1 hr 5 mins    █▎░░░░░░░░░░░░░░░░░░░   6.3%
-Other      59 mins        █▏░░░░░░░░░░░░░░░░░░░   5.7%
-SQL        17 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.7%
+TypeScript 14 hrs 46 mins ████████████▌░░░░░░░░  59.6%
+Markdown   3 hrs 17 mins  ██▊░░░░░░░░░░░░░░░░░░  13.2%
+JSON       1 hr 34 mins   █▎░░░░░░░░░░░░░░░░░░░   6.3%
+YAML       1 hr 31 mins   █▎░░░░░░░░░░░░░░░░░░░   6.1%
+Other      50 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.4%
 ```
 
 <!-- code_time ends -->
@@ -59,14 +59,6 @@ SQL        17 mins        ▎░░░░░░░░░░░░░░░░░
 ### 💻 Recent Releases
 
 <!-- recent_releases starts -->
-<!-- * <a href=https://github.com/pseudoyu/yu-tools/releases/tag/v0.1 target='_blank'>yu-tools Yu's Personal Tools</a> -->
-* <a href=https://github.com/pseudoyu/top-blockchain-projects/releases/tag/v1.0.0 target='_blank'>top-blockchain-projects GitHub 区块链项目 star 排行榜</a>
-* <a href=https://github.com/pseudoyu/pseudoyu/releases/tag/v1.1.0 target='_blank'>pseudoyu 首页信息流展示</a>
-* <a href=https://github.com/pseudoyu/learn-solidity/releases/tag/v1.0.0 target='_blank'>learn-solidity Solidity 智能合约开发学习</a>
-* <a href=https://github.com/pseudoyu/lottery-solidity/releases/tag/v1.0.0 target='_blank'>lottery-solidity 用 Solidity 编写的彩票智能合约 Demo</a>
-* <a href=https://github.com/pseudoyu/py4e-assignments/releases/tag/v1.0.0 target='_blank'>py4e-assignments Coursera Python 课程代码</a>
-* <a href=https://github.com/pseudoyu/chumu-food/releases/tag/v1.0.0 target='_blank'>chumu-food 微信小程序：吃什么呀</a>
-* <a href=https://github.com/pseudoyu/cs61b-sp14/releases/tag/v0.0.1 target='_blank'>cs61b-sp14 UC Berkeley CS61B 课程代码</a>
-* <a href=https://github.com/pseudoyu/comp7404-assignments/releases/tag/v1.0.0 target='_blank'>comp7404-assignments HKU COMP7404 课程代码</a>
-* <a href=https://github.com/pseudoyu/yu-blockchain/releases/tag/v1.0.0 target='_blank'>blockchain 从零实现一个区块链</a>
+* <a href=https://github.com/Maserhe/Acer-A515-51G-84v3-Hackintosh-OpenCore/releases/tag/aaaa target='_blank'>Acer-A515-51G-84v3-Hackintosh-OpenCore Acer-A515-51G-Hackintosh-OpenCore8.0</a>
+* <a href=https://github.com/Maserhe/LeetCode/releases/tag/Algorithm target='_blank'>LeetCode </a>
 <!-- recent_releases ends -->
