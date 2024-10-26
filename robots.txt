@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://jpg6.com/sitemap.xml
