@@ -735,7 +735,7 @@
 &lt;p>静态博客需要托管在一个平台上才能够实现外部访问，可以是自己的 vps 主机，也可以是 &lt;a href="https://pages.github.com">GitHub Pages&lt;/a>，或者是 &lt;a href="http://vercel.com">Vercel&lt;/a> 这样的 Serverless 平台，后两者都可以通过 GitHub 仓库进行关联。&lt;/p>
 &lt;p>我选择了 GitHub Pages 这种方式，完全免费且和 GitHub 代码仓库无缝对接，能够满足我博客源文件备份和版本管理的需求，还可以通过强大且同样免费的 &lt;a href="https://github.com/features/actions">GitHub Action&lt;/a> 实现各种 CI/CD 的功能，如提交/更新博客源文件后自动构建生成博客静态文件并推送到 GitHub Pages 仓库进行部署，还可以配合一些定时任务实现自我介绍页面更新等功能。&lt;/p>
 &lt;h3 id="博客域名">博客域名&lt;/h3>
-&lt;p>使用 GitHub Pages 生成网站会自动分配一个 xxx.github.io 的默认域名，通过这个域名就可以直接对生成的博客网站进行访问，也可以通过域名解析配置自己的域名，如我的网站就是解析了 &lt;a href="https://www.pseudoyu.com">pseudoyu.com&lt;/a> 这个域名。&lt;/p>
+&lt;p>使用 GitHub Pages 生成网站会自动分配一个 xxx.github.io 的默认域名，通过这个域名就可以直接对生成的博客网站进行访问，也可以通过域名解析配置自己的域名，如我的网站就是解析了 &lt;a href="https://www.jpg6.com">jpg6.com&lt;/a> 这个域名。&lt;/p>
 &lt;p>我的域名是在 &lt;a href="https://www.namesilo.com">NameSilo&lt;/a> 购买的，并通过 &lt;a href="https://www.cloudflare.com">Cloudflare&lt;/a> 平台进行 CDN 加速，提升访问体验，并实现了域名重定向等功能，关于博客访问优化这一点后续会单独讲解。&lt;/p>
 &lt;h3 id="访客分析">访客分析&lt;/h3>
 &lt;p>作为一个持续更新运营的博客平台，我们一定很好奇我们哪篇文章阅读量最高、哪个关键词检索最频繁等，帮助我们专注在更有价值的内容创作与分享上，类似的工具也很多，我选择了 &lt;a href="https://splitbee.io">splitbee&lt;/a> 与 &lt;a href="https://search.google.com/search-console">Google Console&lt;/a> 来统计分析我的访客信息与搜索权重，此外，&lt;a href="https://www.cloudflare.com">Cloudflare&lt;/a> 也能够对网络流量进行分析，不过因为有很多网络无关流量，如爬虫等，所以参考性没有前两者强。&lt;/p>
@@ -744,7 +744,8 @@
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cloudflare_statistics.png" alt="cloudflare_statistics">&lt;/p>
 &lt;h3 id="评论系统">评论系统&lt;/h3>
 &lt;p>一个博客系统当然需要评论系统，像 WordPress 这种自身具备了评论插件，而静态博客则需要自己对接一些评论系统，我最开始选择的是第三方的 &lt;a href="https://disqus.com">Disqus&lt;/a>，简单易用，但是会自带很多广告推广，也不够简约，后来选择了 &lt;a href="https://lutaonan.com">Randy&lt;/a> 的 &lt;a href="https://cusdis.com">Cusdis&lt;/a>，一个轻量级的开源评论系统解决方案（从名字看也是深受 Disqus 其害忍不住自己开坑了哈哈），我通过 Vercel 自建，并链接了 &lt;a href="https://www.heroku.com">Heroku&lt;/a> 的免费 &lt;a href="https://www.postgresql.org">PostgreSQL&lt;/a> 数据库进行评论数据存储，实现了免费、稳定的评论系统，还支持邮件推送、Telegram Bot 提醒/快捷回复等功能。&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/pseudoyu/image-hosting@master/images/cusdis_overview.png" alt="cusdis_overview">&lt;/p>
+&lt;p>![cusdis_overview](&lt;a href="https://cdn.jsdelivr.net/gh/">https://cdn.jsdelivr.net/gh/&lt;/a>
+/image-hosting@master/images/cusdis_overview.png)&lt;/p>
 &lt;h3 id="图片管理">图片管理&lt;/h3>
 &lt;p>日常发布的文章中可能会涉及很多图片，将图片存储在静态博客源项目仓库中的话会使项目过于庞大，并且很难二次使用和管理，因此，我同样选择了 GitHub 作为图床工具，并使用 &lt;a href="https://molunerfinn.com/PicGo/">PicGo&lt;/a> 客户端进行图床管理，在上传前使用 &lt;a href="https://tinypng.com">TinyPNG&lt;/a> 进行压缩，并使用 &lt;a href="https://www.jsdelivr.com">jsDelivr&lt;/a> 服务为 GitHub 图床进行加速，这样就可以将所有图片存储在 GitHub 图床仓库，文章中以外链的方式嵌入图片。&lt;/p>
 &lt;h2 id="发布流程">发布流程&lt;/h2>
