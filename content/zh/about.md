@@ -60,7 +60,11 @@ weight: 100
 ### 🎧 最近阅读观影
 
 <!-- douban starts -->
-
+* <a href='https://book.douban.com/subject/36109174/' target='_blank'>想读你的夏天还好吗？</a> - 2024-11-02
+* <a href='https://book.douban.com/subject/35534519/' target='_blank'>读过素食者</a> - 2024-11-02
+* <a href='https://book.douban.com/subject/26362836/' target='_blank'>读过献给阿尔吉侬的花束</a> - 2024-11-02
+* <a href='http://movie.douban.com/subject/1997685/' target='_blank'>想看交响情人梦</a> - 2024-10-30
+* <a href='http://movie.douban.com/subject/1464837/' target='_blank'>想看魔女的条件</a> - 2024-10-30
 <!-- douban ends -->
 
 ### 👨🏻‍💻 最近编程记录
